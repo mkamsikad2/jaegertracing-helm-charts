@@ -225,6 +225,7 @@ rules:
   - networking.k8s.io
   resources:
   - ingresses
+  - ingressClass
   verbs:
   - create
   - delete
